@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#1b2a4a"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a8ffea" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#ffd6a8" stop-opacity="0.55"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="220" fill="url(#bg)"/>
+
+  <!-- “Agency network” -->
+  <g stroke="url(#stroke)" stroke-width="2" fill="none" opacity="0.75" filter="url(#glow)">
+    <path d="M80,150 C220,40 340,210 520,110 C680,20 820,210 1060,70" />
+    <path d="M120,60 C260,180 360,40 520,150 C680,250 820,70 1120,160" opacity="0.55"/>
+  </g>
+
+  <!-- Nodes -->
+  <g fill="#e8fff8" opacity="0.9" filter="url(#glow)">
+    <circle cx="120" cy="60" r="5"/>
+    <circle cx="260" cy="120" r="6"/>
+    <circle cx="380" cy="70" r="5"/>
+    <circle cx="520" cy="150" r="7"/>
+    <circle cx="680" cy="95" r="6"/>
+    <circle cx="820" cy="140" r="6"/>
+    <circle cx="980" cy="80" r="5"/>
+    <circle cx="1120" cy="160" r="5"/>
+  </g>
+
+  <!-- “Brush strokes” -->
+  <g opacity="0.28">
+    <path d="M120,185 C220,160 320,200 420,175 C520,150 640,205 760,175 C880,145 980,190 1100,165"
+          stroke="#ffd6a8" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M140,40 C240,20 340,60 440,40 C540,20 660,70 780,45 C900,20 1000,55 1120,35"
+          stroke="#a8ffea" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Subtle caption (no workshop title here; title stays in page content/SEO) -->
+  <text x="24" y="28" fill="#ffffff" opacity="0.75" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14">
+    AVI 2026 Workshop • Interfaces • HCAI • Artistic Research • Agency
+  </text>
+</svg>
