@@ -1,22 +1,45 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 permalink: /
 title: Home
 layout: home
 ---
 
-Hi there! Here's the lazy grad student's template for workshop webpages. I put this together to help automate mundane tasks with conventional workshop webpages - curating lists of speakers and/or organizers, schedules, and submitted/accepted papers. Here's a completely unrelated picture adapted from "Machine Learning & Artificial Intelligence" by `mikemacmarketing`; licensed under CC BY 2.0:
+# Rethinking Artistic Research in the Age of AI  
+### New Frameworks, HCAI Practices, and Challenges  
+**Workshop at [AVI 2026](https://www.unive.it/web/en/15667/home)**
 
-![](assets/img/banner.jpg)
+Artistic research is increasingly conducted through intelligent visual and interactive interfaces: generative image and sound tools, multimodal dashboards, interactive repositories, and mixed reality environments. These systems reshape how artists inquire, document, and share knowledge, redistributing agency among artists, AI models, datasets, and institutions.
 
-The theme is quite easy to use if you're familiar with Jekyll. The following collections are implemented:
-1. **Speakers**: Curate a [speaker list like this one](speakers) from a set of markdown files, one per speaker. Crops and displays images if available. Adds a short bio. See files in the `_speakers` directory for examples.
-2. **Organizers**: Curate an organizer list from a set of markdown files, one per organizer. See files in the `_organizers` directory for examples.
-3. **Schedule**: Curate a [schedule like this](schedule) from a set of markdown files, one per event (talk, panel, break, etc.). See files in the `_schedule` directory for examples. Schedule items are sorted by a `sequence_id` attribute.
-4. **Papers**: Curate a [list of papers like this](papers) from a bunch of markdown files, one per paper. See files in the `_papers` directory for examples. Papers are sorted by a `sequence_id` attribute if specifed (else they are listed alphabetically).
+This workshop explores how advanced visual interfaces—possibly based on intelligent interaction paradigms—can support artistic research in the age of generative AI. We invite contributions that present design cases, prototypes, and critical reflections on tools and environments created **for and with** artists and art schools. Of particular interest are interfaces and **Human-Centred AI** approaches that make agency visible and negotiable, foster critical and ethical stances toward AI, and enable learning ecosystems across academies and universities.
 
-> **NOTE:** The best way to use these is to turn feature on or off by editing the `collections` attribute in `_config.yml`.
+The workshop aims to create a venue where HCI researchers, designers, artists, and art educators can:
+1) map current and emerging interaction paradigms for AI-supported artistic research;  
+2) discuss responsible and inclusive approaches to intelligent interfaces in artistic contexts; and  
+3) share examples of platforms, repositories, and tools that foreground artistic agency and creative self-actualization.
 
-If you experience issues or have cool features to add, feel free to [fork this template]().
+**→ Interested in contributing?** See the [Call for Contributions](/callforpapers/) and the [Program](/schedule/).
+
+## Topics
+- AI based Art and Creativity  
+- Human-Centred Interaction Paradigms and Tools for Art and Creativity  
+- Learning Ecosystems and Computer-Supported Cooperative Work  
+- Diversity, Equity, and Inclusion and Responsible Design  
+- Cultural Heritage and Digital Humanities  
+- Health, Well-being, and Self-Actualization  
+
+## Format (tentative)
+Half-day workshop combining a keynote, short talks, and a demo/poster session, followed by a closing discussion. We particularly welcome **live demos** of tools and platforms used in art academies and universities, including early-stage prototypes and speculative interfaces.
+
+A draft program is available in the [Program](/schedule/) page.
+
+## Target audience
+Researchers and practitioners at the intersection of artistic research, HCI, and AI: artists, designers, interaction/UX researchers, and technologists engaged with creative practice. Particularly relevant for AFAM institutions and universities running artistic research and doctoral programmes, as well as PhD candidates, post-graduate students, curators, and tool/platform developers.
+
+## Proceedings (planned)
+Workshop submissions will undergo peer review based on relevance, originality, and clarity. Accepted peer-reviewed contributions will be published in an open-access **CEUR-WS.org** proceedings volume. Demo and poster contributions may be included as extended abstracts and/or made available through the workshop website and the P+ARTS online repository.
+
+## Important dates
+- Submission deadline: **TBA**
+- Notification: **TBA**
+- Camera-ready: **TBA**
+- Workshop date: **TBA** (at AVI 2026)
