@@ -17,7 +17,7 @@ The workshop aims to create a venue where HCI researchers, designers, artists, a
 2) discuss responsible and inclusive approaches to intelligent interfaces in artistic contexts; and  
 3) share examples of platforms, repositories, and tools that foreground artistic agency and creative self-actualization.
 
-**→ Interested in contributing?** See the [Call for Contributions..(/callforpapers/) and the [Program..(/schedule/).
+**→ Interested in contributing?** See the [Call for Contributions(/callforpapers/) and the [Program(/schedule/).
 
 ## Topics
 - AI based Art and Creativity  
