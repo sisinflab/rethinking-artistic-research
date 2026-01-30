@@ -4,4 +4,5 @@ title: Keynote & Speakers
 permalink: /speakers/
 ---
 
-Keynote speaker and accepted short talks will be announced here.
+**Keynote speaker(s): TBA.**  
+Accepted speakers and presentations will be announced after the review process.
