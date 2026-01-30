@@ -17,7 +17,7 @@ The workshop aims to create a venue where HCI researchers, designers, artists, a
 2) discuss responsible and inclusive approaches to intelligent interfaces in artistic contexts; and  
 3) share examples of platforms, repositories, and tools that foreground artistic agency and creative self-actualization.
 
-**→ Interested in contributing?** See the [Call for Contributions](/callforpapers/) and the [Program](/schedule/).
+**→ Interested in contributing?** See the [Call for Contributions].(/callforpapers/) and the [Program].(/schedule/).
 
 ## Topics
 - AI based Art and Creativity  
@@ -35,7 +35,7 @@ A draft program is available in the [Program](/schedule/) page.
 ## Target audience
 Researchers and practitioners at the intersection of artistic research, HCI, and AI: artists, designers, interaction/UX researchers, and technologists engaged with creative practice. Particularly relevant for AFAM institutions and universities running artistic research and doctoral programmes, as well as PhD candidates, post-graduate students, curators, and tool/platform developers.
 
-## Proceedings (planned)
+## Proceedings
 Workshop submissions will undergo peer review based on relevance, originality, and clarity. Accepted peer-reviewed contributions will be published in an open-access **CEUR-WS.org** proceedings volume. Demo and poster contributions may be included as extended abstracts and/or made available through the workshop website and the P+ARTS online repository.
 
 ## Important dates
