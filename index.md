@@ -27,6 +27,8 @@ The workshop aims to create a venue where HCI researchers, designers, artists, a
 - Cultural Heritage and Digital Humanities  
 - Health, Well-being, and Self-Actualization  
 
+**Submission (EasyChair):** [{{ site.submission_url }}]({{ site.submission_url }})
+
 ## Format (tentative)
 Half-day workshop combining a keynote, short talks, and a demo/poster session, followed by a closing discussion. We particularly welcome **live demos** of tools and platforms used in art academies and universities, including early-stage prototypes and speculative interfaces.
 
