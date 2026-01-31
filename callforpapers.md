@@ -91,7 +91,8 @@ Accepted peer-reviewed contributions will be published in an open-access **CEUR-
 
 - **Language:** English  
 - **File format:** PDF  
-- **Formatting:** CEUR-WS two-column conference format (available as a compressed archive and as an Overleaf template)  
+- **Formatting:** CEUR-WS two-column conference format (available as a compressed archive and as an Overleaf template [CEUR-WS Overleaf template](https://www.overleaf.com/latex/templates/template-for-submissions-to-ceur-workshop-proceedings-ceur-ws-dot-org/wqyfdgftmcfw)
+)  
 - **Submission:** Submit via EasyChair: [{{ site.submission_url }}]({{ site.submission_url }})
 - **Anonymity / review model:** **double blind**
 
