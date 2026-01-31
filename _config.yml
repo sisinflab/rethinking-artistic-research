@@ -8,8 +8,8 @@ baseurl: "/rethinking-artistic-research"
 lang: en
 
 author:
-  name: Workshop Organizers
-  email: workshop-contact@example.com
+  name: Claudio Pomo
+  email: claudio.pomo@poliba.it
 
 # Minima social icons (the theme uses this)
 minima:
@@ -49,5 +49,4 @@ collections:
     sort_by: sequence_id
     output: true
   papers:
-    sort_by: sequence_id
-    output: true
+    output: false
