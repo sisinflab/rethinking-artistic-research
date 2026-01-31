@@ -97,12 +97,13 @@ Accepted peer-reviewed contributions will be published in an open-access **CEUR-
 
 ## Important dates
 
-- Paper submission deadline: **TBA**  
-- Paper acceptance notification: **TBA**  
-- Camera-ready deadline: **TBA**  
+- Paper submission deadline: **March 29, 2026 (23:59 AoE)**
+- Paper acceptance notification: **April 10, 2026 (23:59 AoE)**
+- Camera-ready deadline: **TBA**
 - Workshop day: **TBA** (at AVI 2026)
 
 Deadlines refer to **23:59 AoE (Anywhere on Earth)** unless otherwise stated.
+
 
 ## Contact
 

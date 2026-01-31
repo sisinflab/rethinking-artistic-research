@@ -5,7 +5,16 @@
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
     {%- if site.masthead -%}
-      <a href="{{ "/" | relative_url }}"><img class="site-masthead" src="{{ site.masthead | relative_url }}" alt="{{ site.masthead_description }}" /></a>
+       <div class="wrapper">
+         <div class="masthead-wrap">
+           <a href="{{ "/" | relative_url }}">
+              <img class="site-masthead"
+                   src="{{ site.masthead | relative_url }}"
+                   alt="{{ site.masthead_description }}" />
+           </a>
+           <span class="masthead-credit">Banner image generated with OpenAI GPT Image</span>
+         </div>
+       </div>
     {%- else -%}
       <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     {%- endif -%}

@@ -126,6 +126,34 @@
   padding-bottom: $spacing-unit / 2;
 }
 
+.masthead-wrap{
+  position: relative;
+}
+
+.masthead-credit{
+  position: absolute;
+  right: 12px;
+  bottom: 10px;
+  font-size: 8px;
+  line-height: 1;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.35);
+  color: rgba(255,255,255,0.92);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  pointer-events: none; // non “ruba” click al banner
+}
+
+@media (max-width: 600px){
+  .masthead-credit{
+    right: 8px;
+    bottom: 8px;
+    font-size: 11px;
+    padding: 5px 8px;
+  }
+}
+
 
 
 /**

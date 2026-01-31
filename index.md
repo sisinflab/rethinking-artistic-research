@@ -39,7 +39,7 @@ Researchers and practitioners at the intersection of artistic research, HCI, and
 Workshop submissions will undergo peer review based on relevance, originality, and clarity. Accepted peer-reviewed contributions will be published in an open-access **CEUR-WS.org** proceedings volume. Demo and poster contributions may be included as extended abstracts and/or made available through the workshop website and the P+ARTS online repository.
 
 ## Important dates
-- Submission deadline: **TBA**
-- Notification: **TBA**
+- Submission deadline: **March 29, 2026 (23:59 AoE)**
+- Notification: **April 10, 2026 (23:59 AoE)**
 - Camera-ready: **TBA**
 - Workshop date: **TBA** (at AVI 2026)
