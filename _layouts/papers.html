@@ -10,7 +10,7 @@ layout: default
   <div class="post-content">
     {{ content }}
 
-    {% if site.papers and site.papers.size > 0 %}
+    {% if page.output and site.papers and site.papers.size > 0 %}
       <table>
         {% for paper in site.papers %}
           <tr>
