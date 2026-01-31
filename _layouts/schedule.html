@@ -10,7 +10,7 @@ layout: default
   <div class="post-content">
     {{ content }}
 
-    {%- assign show_table = page.show_schedule_table | default: true -%}
+    {%- assign show_table = page.show_schedule_table | default: false -%}
     {% if show_table and site.schedule and site.schedule.size > 0 %}
       <table>
         {% for scheduleitem in site.schedule %}
