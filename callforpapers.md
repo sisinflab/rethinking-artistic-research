@@ -75,13 +75,13 @@ Position/Discussion/Extended Abstract and Demo paper submissions must be origina
 
 ## Review process and presentation
 
-Submissions will be peer-reviewed and evaluated according to **originality**, **technical and/or practice-based content**, **clarity**, and **relevance** to the workshop. The review model (single-blind/double-blind) will be specified in the final call (**TBA**).
+Submissions will be peer-reviewed using a **single-blind** model and evaluated according to **originality**, **technical and/or practice-based content**, **clarity**, and **relevance** to the workshop.
 
 Accepted contributions will be included in the workshop program. Selected submissions will be presented as short talks; demos/posters will be presented via pitches and an interactive session. At least one author of each accepted contribution must register for AVI 2026 and attend the workshop.
 
-## Proceedings (planned)
+## Post-proceedings (planned)
 
-Accepted peer-reviewed contributions will be published in an open-access **CEUR-WS.org** workshop proceedings volume. Demo and poster contributions may be included as extended abstracts in the same volume and/or made available through the workshop website and the P+ARTS online repository to ensure long-term visibility and accessibility.
+Accepted peer-reviewed contributions will be published as **post-proceedings** in an open-access **CEUR-WS.org** workshop volume after the workshop. Demo and poster contributions may be included as extended abstracts in the same volume and/or made available through the workshop website and the P+ARTS online repository to ensure long-term visibility and accessibility.
 
 ## Submission instructions
 
@@ -90,7 +90,7 @@ Accepted peer-reviewed contributions will be published in an open-access **CEUR-
 - **Formatting:** CEUR-WS two-column conference format (available as a compressed archive and as an Overleaf template [CEUR-WS Overleaf template](https://www.overleaf.com/latex/templates/template-for-submissions-to-ceur-workshop-proceedings-ceur-ws-dot-org/wqyfdgftmcfw)
 )  
 - **Submission:** Submit via EasyChair: [{{ site.submission_url }}]({{ site.submission_url }})
-- **Anonymity / review model:** **double blind**
+- **Review model:** **single-blind**
 
 ## Important dates
 
