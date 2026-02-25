@@ -59,23 +59,19 @@ The workshop is planned as a half-day event combining a keynote, short talks, an
 
 ## Submissions
 
-We invite three kinds of submissions, addressing novel issues at the intersection of artistic research, HCI, and AI:
+We invite two kinds of submissions, addressing novel issues at the intersection of artistic research, HCI, and AI:
 
-### Full (Long) Papers
-Full papers should report on substantial contributions of lasting value, including design cases, conceptual frameworks, methodological contributions, and evaluations.  
-**Length:** minimum **6** and maximum **8** pages **(plus an unlimited number of pages for references).**
-
-### Short / Demo Papers
-Short/Demo papers typically discuss exciting new work that is not yet mature enough for a full paper. Novel but significant proposals will be considered for acceptance in this category even if they lack extensive validation or a strong theoretical foundation. Applications to new domains, institutional contexts (e.g., academies/universities), and early-stage prototypes are especially welcome.  
+### Demo Papers
+Demo papers typically discuss exciting new work and tools, including early-stage prototypes, design probes, and platforms. Novel but significant proposals will be considered for acceptance in this category even if they lack extensive validation or a strong theoretical foundation. Applications to new domains and institutional contexts (e.g., academies/universities) are especially welcome.  
 **Length:** minimum **3** and maximum **5** pages **(plus an unlimited number of pages for references).**
 
-### Position / Discussion Papers
-Position/Discussion papers describe novel and innovative ideas. They may also comprise analyses of currently unsolved problems, or review these problems from a new perspective, with the goal of guiding future research. We expect these papers to motivate focused discussion, highlight critical assumptions, and identify open challenges and opportunities—possibly supported by quantitative and/or qualitative arguments.  
-**Length:** minimum **2** and maximum **3** pages **(plus an unlimited number of pages for references).**
+### Position / Discussion Papers / Extended Abstracts
+Position/Discussion papers and Extended Abstracts describe novel and innovative ideas. They may also comprise analyses of currently unsolved problems, or review these problems from a new perspective, with the goal of guiding future research. We expect these contributions to motivate focused discussion, highlight critical assumptions, and identify open challenges and opportunities—possibly supported by quantitative and/or qualitative arguments.  
+**Length:** minimum **2** and maximum **4** pages **(plus an unlimited number of pages for references).**
 
 Papers may range from theoretical works to system descriptions and practice-based research. We particularly encourage PhD candidates and early-stage researchers to submit their work. We also welcome contributions from industry and papers describing ongoing funded projects relevant to the workshop themes.
 
-Long and short/demo paper submissions must be original work and may not be under submission to another venue at the time of review.
+Position/Discussion/Extended Abstract and Demo paper submissions must be original work and may not be under submission to another venue at the time of review.
 
 ## Review process and presentation
 
@@ -109,4 +105,3 @@ Deadlines refer to **23:59 AoE (Anywhere on Earth)** unless otherwise stated.
 ## Contact
 
 For questions, please contact the organizers at: **claudio.pomo@poliba.it**
-
