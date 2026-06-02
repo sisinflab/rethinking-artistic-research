@@ -1,6 +1,6 @@
 ---
 sequence_id: 2
 title: Break
-time: "15:30 – 15:45"
+time: "16:00 – 16:30"
 type: break
 ---
