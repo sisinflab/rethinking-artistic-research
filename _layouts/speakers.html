@@ -11,59 +11,124 @@ layout: default
     {{ content }}
 
     {% if site.speakers and site.speakers.size > 0 %}
-      <table style="border-collapse: collapse; border: none;">
-        {% for speaker in site.speakers %}
-          <tr style="border: none;">
-            <td style="border: none;">
-              <div class="col-xs-6">
-                <p align="center">
-                  {% if speaker.img %}
-                    <img class="people-pic" src="{{ '/assets/img/speakers/' | append: speaker.img | relative_url }}" />
-                  {% else %}
-                    <img class="people-pic" src="{{ '/assets/img/speakers/avatar.svg' | relative_url }}" />
-                  {% endif %}
-                </p>
-              </div>
-            </td>
+      {% assign sorted_speakers = site.speakers | sort: "sequence_id" %}
+      {% for speaker in sorted_speakers %}
+        <div class="speaker-card">
 
-            <td style="border: none;">
-              <div class="people-name text-center">
+          <div class="speaker-card-header">
+            <div class="speaker-avatar">
+              {% if speaker.img %}
+                <img class="people-pic" src="{{ '/assets/img/speakers/' | append: speaker.img | relative_url }}" alt="{{ speaker.name }}" />
+              {% else %}
+                <img class="people-pic" src="{{ '/assets/img/speakers/avatar.svg' | relative_url }}" alt="{{ speaker.name }}" />
+              {% endif %}
+            </div>
+
+            <div class="speaker-meta">
+              {% if speaker.type == "keynote" %}
+                <span class="speaker-badge badge-keynote">Keynote Speaker</span>
+              {% elsif speaker.type == "invited" %}
+                <span class="speaker-badge badge-invited">Invited Speaker</span>
+              {% endif %}
+
+              <h2 class="speaker-name">
                 {% if speaker.webpage %}
-                  <b><a href="{{ speaker.webpage }}" target="_blank">{{ speaker.name }}</a></b>
+                  <a href="{{ speaker.webpage }}" target="_blank">{{ speaker.name }}</a>
                 {% else %}
-                  <b>{{ speaker.name }}</b>
+                  {{ speaker.name }}
                 {% endif %}
-                <br>
+              </h2>
 
-                {% if speaker.affil %}
+              {% if speaker.affil %}
+                <p class="speaker-affil">
                   {% if speaker.affil_link %}
                     <a href="{{ speaker.affil_link }}" target="_blank">{{ speaker.affil }}</a>
                   {% else %}
                     {{ speaker.affil }}
                   {% endif %}
-                {% endif %}
-
-                {% if speaker.affil2 %}
-                  <br>
-                  {% if speaker.affil2_link %}
-                    <a href="{{ speaker.affil2_link }}" target="_blank">{{ speaker.affil2 }}</a>
-                  {% else %}
-                    {{ speaker.affil2 }}
+                  {% if speaker.affil2 %}
+                    <br>
+                    {% if speaker.affil2_link %}
+                      <a href="{{ speaker.affil2_link }}" target="_blank">{{ speaker.affil2 }}</a>
+                    {% else %}
+                      {{ speaker.affil2 }}
+                    {% endif %}
                   {% endif %}
-                {% endif %}
-              </div>
-            </td>
+                </p>
+              {% endif %}
+            </div>
+          </div>
 
-            <td style="border: none;">
-              <div class="people-name text-center">
-                {{ speaker.content }}
-              </div>
-            </td>
-          </tr>
-        {% endfor %}
-      </table>
+          {% if speaker.talk_title %}
+            <div class="speaker-talk">
+              <h3 class="talk-title">{{ speaker.talk_title }}</h3>
+              {% if speaker.talk_abstract %}
+                <p class="talk-abstract">{{ speaker.talk_abstract }}</p>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          {% if speaker.content and speaker.content != "" %}
+            <div class="speaker-bio">
+              <h4>Bio</h4>
+              {{ speaker.content }}
+            </div>
+          {% endif %}
+
+        </div>
+      {% endfor %}
     {% else %}
       <p><em>Speakers will be announced soon.</em></p>
     {% endif %}
   </div>
 </article>
+
+<style>
+  .speaker-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    background: #fff;
+  }
+  .speaker-card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .speaker-avatar img.people-pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .speaker-meta { flex: 1; }
+  .speaker-badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    margin-bottom: 0.35rem;
+  }
+  .badge-keynote  { background: #d0eaf8; color: #1a5f7a; }
+  .badge-invited  { background: #d4edda; color: #1a5c2a; }
+  .speaker-name { font-size: 1.25rem; font-weight: 700; margin: 0.2rem 0 0.1rem; }
+  .speaker-name a { text-decoration: none; }
+  .speaker-affil { font-size: 0.9rem; color: #555; margin: 0; }
+  .speaker-talk {
+    border-left: 4px solid #c8dff0;
+    padding-left: 1rem;
+    margin: 1rem 0;
+  }
+  .talk-title { font-size: 1.05rem; font-weight: 700; margin: 0 0 0.5rem; }
+  .talk-abstract { font-size: 0.92rem; color: #444; margin: 0; line-height: 1.6; }
+  .speaker-bio { margin-top: 1rem; }
+  .speaker-bio h4 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase;
+                    letter-spacing: 0.05em; color: #777; margin-bottom: 0.4rem; }
+  .speaker-bio p { font-size: 0.92rem; color: #444; line-height: 1.6; }
+</style>
