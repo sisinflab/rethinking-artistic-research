@@ -35,7 +35,7 @@ The workshop aims to create a venue where HCI researchers, designers, artists, a
 ## Format
 Half-day workshop combining a keynote, short talks, and a demo/poster session, followed by a closing discussion. We particularly welcome **live demos** of tools and platforms used in art academies and universities, including early-stage prototypes and speculative interfaces.
 
-The full program is available on the [Program](/schedule/) page.
+The full program is available on the [Program](./schedule/) page.
 
 ## Target audience
 Researchers and practitioners at the intersection of artistic research, HCI, and AI: artists, designers, interaction/UX researchers, and technologists engaged with creative practice. Particularly relevant for AFAM institutions and universities running artistic research and doctoral programmes, as well as PhD candidates, post-graduate students, curators, and tool/platform developers.
