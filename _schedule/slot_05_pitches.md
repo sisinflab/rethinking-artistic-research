@@ -1,6 +1,7 @@
 ---
 sequence_id: 5
-speaker: Demo/Poster presenters
-title: Demo & poster pitches (3 min each)
-time: 1700 - 1730
+speaker: Alessandra Micalizzi
+title: "Rethinking Creativity: Human Perception and Artistic Value in AI-Mediated Music"
+time: "16:35 – 17:00"
+type: paper
 ---

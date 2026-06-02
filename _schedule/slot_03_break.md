@@ -1,5 +1,7 @@
 ---
 sequence_id: 3
-title: Break & informal networking
-time: 1555 - 1615
+speaker: "Bernardino Sassoli de Bianchi & Martin Ruskov"
+title: "Cultural Artifacts as Diagnostic Probes: A Framework for Evaluating AI Architectural Commitments"
+time: "15:45 – 16:10"
+type: paper
 ---

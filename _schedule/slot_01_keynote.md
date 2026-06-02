@@ -1,6 +1,9 @@
 ---
 sequence_id: 1
-speaker: Keynote speaker (TBA)
-title: Keynote (30–40 min)
-time: 1415 - 1455
+speaker: Francesco D'Isa
+title: "Keynote — Title TBA"
+abstract: "Abstract TBA"
+bio: "Bio TBA"
+time: "14:35 – 15:30"
+type: keynote
 ---

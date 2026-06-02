@@ -12,53 +12,67 @@ layout: default
 
     {%- assign show_table = page.show_schedule_table | default: false -%}
     {% if show_table and site.schedule and site.schedule.size > 0 %}
-      <table>
-        {% for scheduleitem in site.schedule %}
+      <table class="schedule-table">
+        <thead>
           <tr>
-            <td><p align="center">{{ scheduleitem.time }}</p></td>
-
+            <th style="width:15%">Time</th>
+            <th>Session / Talk</th>
+            <th>Speaker(s)</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% assign sorted_schedule = site.schedule | sort: "sequence_id" %}
+        {% for item in sorted_schedule %}
+          {%- assign row_class = "" -%}
+          {%- if item.type == "break" -%}{%- assign row_class = "schedule-break" -%}
+          {%- elsif item.type == "keynote" -%}{%- assign row_class = "schedule-keynote" -%}
+          {%- elsif item.type == "invited" -%}{%- assign row_class = "schedule-invited" -%}
+          {%- elsif item.type == "logistics" -%}{%- assign row_class = "schedule-logistics" -%}
+          {%- elsif item.type == "paper" -%}{%- assign row_class = "schedule-paper" -%}
+          {%- endif -%}
+          <tr class="{{ row_class }}">
+            <td><strong>{{ item.time }}</strong></td>
             <td>
-              <div class="col-xs-12">
-                <p align="center">
-                  {% if scheduleitem.img %}
-                    <img class="people-pic" src="{{ scheduleitem.img | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}" />
-                  {% else %}
-                    <img class="people-pic" src="{{ 'avatar.svg' | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}" />
-                  {% endif %}
-                </p>
-              </div>
+              <strong>{{ item.title }}</strong>
+              {%- if item.type == "paper" %}
+                <br><small><em>20 min + Q&amp;A</em></small>
+              {%- endif -%}
+              {%- if item.type == "keynote" %}
+                <br><small><em>45 min + Q&amp;A</em></small>
+                {%- if item.abstract %}
+                  <br><small>{{ item.abstract }}</small>
+                {%- endif %}
+              {%- endif -%}
+              {%- if item.type == "invited" %}
+                <br><small><em>30 min + Q&amp;A</em></small>
+                {%- if item.abstract %}
+                  <br><small>{{ item.abstract }}</small>
+                {%- endif %}
+              {%- endif %}
             </td>
-
-            <td align="center"><div class="col-xs-12"><b>{{ scheduleitem.title }}</b></div></td>
-
             <td>
-              <div class="people-name text-center">
-                {% if scheduleitem.webpage %}
-                  <a href="{{ scheduleitem.webpage }}" target="_blank">{{ scheduleitem.speaker }}</a>
-                {% else %}
-                  {{ scheduleitem.speaker }}
-                {% endif %}
-                {% if scheduleitem.affil %}
-                  <br>
-                  {% if scheduleitem.affil_link %}
-                    <a href="{{ scheduleitem.affil_link }}" target="_blank">{{ scheduleitem.affil }}</a>
-                  {% else %}
-                    {{ scheduleitem.affil }}
-                  {% endif %}
-                {% endif %}
-                {% if scheduleitem.affil2 %}
-                  <br>
-                  {% if scheduleitem.affil2_link %}
-                    <a href="{{ scheduleitem.affil2_link }}" target="_blank">{{ scheduleitem.affil2 }}</a>
-                  {% else %}
-                    {{ scheduleitem.affil2 }}
-                  {% endif %}
-                {% endif %}
-              </div>
+              {%- if item.speaker %}
+                {{ item.speaker }}
+                {%- if item.bio %}
+                  <br><small>{{ item.bio }}</small>
+                {%- endif %}
+              {%- endif %}
             </td>
           </tr>
         {% endfor %}
+        </tbody>
       </table>
+
+      <style>
+        .schedule-table { width: 100%; border-collapse: collapse; margin-top: 1.5rem; }
+        .schedule-table th, .schedule-table td { padding: 0.65rem 0.85rem; border: 1px solid #ddd; vertical-align: top; }
+        .schedule-table thead { background-color: #f0f0f0; }
+        .schedule-keynote  { background-color: #eaf4fb; }
+        .schedule-invited  { background-color: #edf7ed; }
+        .schedule-paper    { background-color: #fafafa; }
+        .schedule-break    { background-color: #f9f3e3; font-style: italic; }
+        .schedule-logistics { background-color: #f5f0fa; }
+      </style>
     {% endif %}
   </div>
 </article>

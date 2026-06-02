@@ -1,6 +1,7 @@
 ---
 sequence_id: 0
 speaker: Organizers
-title: Introduction & framing
-time: 1400 - 1415
+title: Opening Greetings
+time: "14:30 – 14:35"
+type: logistics
 ---

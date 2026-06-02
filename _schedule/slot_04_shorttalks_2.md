@@ -1,6 +1,7 @@
 ---
 sequence_id: 4
-speaker: Accepted contributors
-title: Short talks session II (flash talks + Q&A)
-time: 1615 - 1700
+speaker: Rossella Petrosino
+title: "Slop as a Canovaccio: Towards a Retrieval Interface for Artistic Research and Actorial Agency"
+time: "16:10 – 16:35"
+type: paper
 ---
