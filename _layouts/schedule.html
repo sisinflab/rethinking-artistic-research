@@ -66,12 +66,12 @@ layout: default
       <style>
         .schedule-table { width: 100%; border-collapse: collapse; margin-top: 1.5rem; }
         .schedule-table th, .schedule-table td { padding: 0.65rem 0.85rem; border: 1px solid #ddd; vertical-align: top; }
-        .schedule-table thead { background-color: #f0f0f0; }
-        .schedule-keynote  { background-color: #eaf4fb; }
-        .schedule-invited  { background-color: #edf7ed; }
-        .schedule-paper    { background-color: #fafafa; }
-        .schedule-break    { background-color: #f9f3e3; font-style: italic; }
-        .schedule-logistics { background-color: #f5f0fa; }
+        .schedule-table thead tr { background-color: #f0f0f0; }
+        .schedule-table tr.schedule-keynote  { background-color: #eaf4fb !important; }
+        .schedule-table tr.schedule-invited  { background-color: #edf7ed !important; }
+        .schedule-table tr.schedule-paper    { background-color: #fafafa !important; }
+        .schedule-table tr.schedule-break    { background-color: #f9f3e3 !important; font-style: italic; }
+        .schedule-table tr.schedule-logistics { background-color: #f5f0fa !important; }
       </style>
     {% endif %}
   </div>
