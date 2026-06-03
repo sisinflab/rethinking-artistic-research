@@ -2,6 +2,7 @@
 name: Paolo Bufalini
 affil: "Accademia di Belle Arti di Napoli"
 type: invited
+img: bufalini.png
 sequence_id: 2
 talk_title: "From the Latent Album: Gen-AI and Personal Archives"
 talk_abstract: "The presentation investigates the aesthetic and analytical implications of Low-Rank Adaptation (LoRA) in

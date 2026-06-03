@@ -4,6 +4,7 @@ affil: "Istituto Lorenzo de' Medici, Florence"
 affil2: "LABA Academy of Fine Arts, Brescia & Florence"
 webpage: https://francescodisa.com
 type: keynote
+img: disa.png
 sequence_id: 1
 talk_title: "Unoptimised: Art before and after AI"
 talk_abstract: "The discourse on AI-generated imagery has settled quickly on a diagnosis: the machine produces slop.
