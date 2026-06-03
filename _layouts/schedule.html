@@ -34,17 +34,10 @@ layout: default
             <td><strong>{{ item.time }}</strong></td>
             <td>
               <strong>{{ item.title }}</strong>
-              {%- if item.type == "paper" %}
-                <br><small><em>20 min + Q&amp;A</em></small>
+              {%- if item.duration %}
+                <br><small><em>{{ item.duration }}</em></small>
               {%- endif -%}
-              {%- if item.type == "keynote" %}
-                <br><small><em>45 min + Q&amp;A</em></small>
-                {%- if item.abstract %}
-                  <br><small>{{ item.abstract }}</small>
-                {%- endif %}
-              {%- endif -%}
-              {%- if item.type == "invited" %}
-                <br><small><em>30 min + Q&amp;A</em></small>
+              {%- if item.type == "keynote" or item.type == "invited" %}
                 {%- if item.abstract %}
                   <br><small>{{ item.abstract }}</small>
                 {%- endif %}

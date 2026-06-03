@@ -21,7 +21,8 @@ Recent awards, commissions, and residencies include: SIAE – Per Chi Crea (2023
 Award from the Emilia-Romagna Region (2020); Nuovo Forno del Pane (residency), c/o MAMbo, Bologna (2020). 
 He is currently a PhD student at the Accademia di Belle Arti di Napoli, where he is conducting research on the 
 atmospheric as a spatialized feeling."
-time: "18:10 – 18:30"
+time: "17:55 – 18:15"
+duration: "25 min + Q&A"
 type: invited
 ---
 

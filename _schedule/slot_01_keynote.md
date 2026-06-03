@@ -25,5 +25,6 @@ in English for The Philosophical Salon, Los Angeles Review of Books, and Philoso
 of digital and AI art in Italy, his practice develops a distinctive aesthetic grounded in creative prompting and in  
 the valorization of generative errors, framed by his ongoing research on “semantic attractors” in latent space."
 time: "14:35 – 15:30"
+duration: "45 min + Q&A"
 type: keynote
 ---
